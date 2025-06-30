@@ -1,0 +1,14 @@
+rnn_type: LeakyRNN
+activation: softplus
+init: diag
+n_rnn: 128
+l2w: -6
+l2h: -6
+l1w: 0
+l1h: 0
+seed: 0
+lr: -6
+sigma_rec: 0.05
+sigma_x: 0.1
+w_rec_coeff: 1
+ruleset: all
