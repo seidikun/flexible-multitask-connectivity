@@ -50,7 +50,7 @@ for task_name in tasks_to_train:
 
     # Directory: .../experiments/LeakyRNN_softplus_diag_128n_fdgo/seed0/
     folder_name = f"{params['rnn_type']}_{params['activation']}_{params['init']}_{params['n_rnn']}n_{task_name}"
-    exp_dir = os.path.join(REPO_DIR, 'experiments', folder_name, f"seed{params['seed']}")
+    exp_dir = os.path.join(REPO_DIR, 'trained_nets', folder_name, f"seed{params['seed']}")
     os.makedirs(exp_dir, exist_ok=True)
 
     # Save parameters
@@ -66,7 +66,7 @@ for task_name in tasks_to_train:
     train.train(
         exp_dir,
         seed=params['seed'],
-        max_steps=1e3,
+        # max_steps=1e3,
         ruleset=params['ruleset'],   # <-- Not the task name! Use generic string
         rule_trains=[task_name],     # <-- Actual task being trained
         hp={
