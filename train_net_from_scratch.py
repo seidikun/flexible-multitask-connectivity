@@ -66,7 +66,7 @@ for task_name in tasks_to_train:
     train.train(
         exp_dir,
         seed=params['seed'],
-        # max_steps=1e3,
+        max_steps=1e6 ,
         ruleset=params['ruleset'],   # <-- Not the task name! Use generic string
         rule_trains=[task_name],     # <-- Actual task being trained
         hp={

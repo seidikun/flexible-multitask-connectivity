@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\User\\Documents\\GitHub\\flexible-multitask-connectivity\\experiments\\LeakyRNN_softplus_diag_128n_delaydm1\\seed0\\ckpts\\model.ckpt-0"
-all_model_checkpoint_paths: "C:\\Users\\User\\Documents\\GitHub\\flexible-multitask-connectivity\\experiments\\LeakyRNN_softplus_diag_128n_delaydm1\\seed0\\ckpts\\model.ckpt-0"
+model_checkpoint_path: "C:\\Users\\User\\Documents\\GitHub\\flexible-multitask-connectivity\\trained_nets\\LeakyRNN_softplus_diag_128n_delaydm1\\seed0\\ckpts\\model.ckpt-0"
+all_model_checkpoint_paths: "C:\\Users\\User\\Documents\\GitHub\\flexible-multitask-connectivity\\trained_nets\\LeakyRNN_softplus_diag_128n_delaydm1\\seed0\\ckpts\\model.ckpt-0"
